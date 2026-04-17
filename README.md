@@ -79,7 +79,7 @@ View the source for more details and examples.
 ## Contributing
 
 All code must pass JSHint and tests.
-Run `grunt` to compile and run JSHint and `grunt test` for the test suite.
+Run `grunt` to lint and `grunt test` for the Karma suite (requires Chrome/Chromium; set `CHROME_BIN` if needed).
 New features need accompanying documentation in the README, changes to existing api's need updated documentation.
 In general, open an issue for whatever it is you're thinking, get some quick feedback, make good stuff, and we'll accept the PR.
 
@@ -93,7 +93,7 @@ unzip compiler-latest.zip -d closure
 
 (The MIT License)
 
-Copyright (c) 2013 Onur Can Cakmak <onur.cakmak@gmail.com> and all TraceKit contributors.
+Copyright (c) 2013 Onur Can Cakmak <onur.cakmak@gmail.com> (Original code © 2009 Andrey Tarantsov <andrey@tarantsov.com>) and all TraceKit contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
